@@ -1,0 +1,12 @@
+Implementing Logistic Regression with numpy
+
+In this problem, you will need to write python codes and build logistic regression classifiers on breast cancer dataset to predict whether the cancer is malignant or benign on the patients. The dataset contains 569 samples and 30 features. You may refer to https://archive.ics.uci.edu/ml/datasets/breast+cancer+wisconsin+(diagnostic) for more information about the dataset.
+
+Your implementations should include:
+- Load data, clean data and partition them into training and testing data.
+- Build logistic regression and L2-regularized logistic regression models.
+- Implement three gradient descent algorithms for each model: Batch Gradient Descent (GD), Mini-Batch Gradient Descent (MB-SGD) and Stochastic Gradient Descent (SGD).
+- Compare the loss curve of three gradient descent algorithms (GD/MB-SGD/SGD).
+- Compare logistic regression and regularized version in terms of training and testing error.
+- Try to tune different parameters (regularization parameter, learning rate, etc.) to see their effects.
+
